@@ -42,7 +42,7 @@ pip install requests pynput pyinstaller
 1. 将`RANKED.png`图标文件与`rankbt.py`放在**同一目录**（无图标可省略`-i RANKED.png`参数）
 2. 命令行执行打包命令：
    ```bash
-   pyinstaller -F -i RANKED.png rankbt.py
+   pyinstaller -F -w -i RANKED.png rankbt.py
    ```
 3. 打包完成后，在当前目录的`dist`文件夹中找到`rankbt.exe`
 4. 双击`rankbt.exe`，按控制台提示选择开局类型后，即可正常使用
@@ -85,7 +85,7 @@ MCSR Ranked API v2 官方文档：
 ## 注意事项
 1. 运行程序前，需将Minecraft窗口置于**可操作状态**，确保为当前活动窗口
 2. 种子输入过程中有微小字符延迟（0.01秒/字符），为保证输入准确，**请勿在执行过程中手动操作键盘/鼠标**
-3. 若程序无响应，优先按F6退出，也可在控制台通过`Ctrl+C`强制终止
+3. 若程序无响应，优先按F6退出
 4. 打包可执行文件时，确保文件名无中文/特殊字符，建议以管理员身份运行命令行
 5. 工具仅用于MCSR Ranked速通练习，请勿用于违规游戏场景
 6. 若出现API连接失败，检查网络连接是否正常，确认API地址可正常访问
@@ -101,7 +101,7 @@ A2：① 确保游戏内输入框为**英文输入法状态**；② 不要在程
 A3：① 升级pyinstaller到最新版本：`pip install --upgrade pyinstaller`；② 确保文件路径无中文/特殊字符；③ 以管理员身份运行命令行重新打包。
 
 ### Q4：API获取种子失败？
-A4：① 检查网络连接，能否正常访问API地址；② 确认选择的开局类型数字在1-6范围内。
+A4：① 检查网络连接，能否正常访问API地址
 
 ## 特别鸣谢:
-A2：林亦辰  https://space.bilibili.com/400070584
+A2：林亦辰  https://space.bilibili.com/400070584 (GUI设计)
