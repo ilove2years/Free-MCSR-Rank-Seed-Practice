@@ -74,7 +74,7 @@ http://43.143.231.104:8001/api/v2/seed?overworld={类型}&nether={类型}&variat
 - completion：完成时间上限（毫秒），限定为排位模式种子，默认 720000（12 分钟）
 
 完整 API 文档请访问：
-http://43.143.231.104/#/p/APIDoc_v2?id=_2-%e9%9a%8f%e6%9c%ba%e8%8e%b7%e5%8f%96%e6%bb%a1%e8%b6%b3%e6%9d%a1%e4%bb%b6%e7%9a%84%e4%b8%80%e6%9d%a1%e7%a7%8d%e5%ad%90%e6%95%b0%e6%8d%ae
+http://43.143.231.104/#/p/APIDoc_v2
 
 ## 注意事项
 1. 运行程序前，必须将 Minecraft 窗口置于最前，且确保为当前活动窗口。
